@@ -1,0 +1,69 @@
+<!doctype html>
+<html>
+<head>
+    <title>Emrah DOĞAN's First Personal Webpage</title>
+	<meta charset="UTF-8">
+</head>
+<body background="regs.jpg">
+<table width="800" height="50" border="0" align="center" bgcolor="white">
+<tr>
+<nav align="center">
+<td align="center"><a href="home.html" >Home</a>&nbsp;</td>
+<td align="center"><a href="about.html" >About</a>&nbsp;</td>
+<td align="center"><a href="picture.html">Picture</a>&nbsp;</td>
+<td align="center"><a href="contact.html">Contact</a>&nbsp;</td>
+<td align="center"><a href="hobbies.html">Hobbies</a>&nbsp;</td>
+<td align="center"><a href="hometown.html">Hometown</a>&nbsp;</td>
+<td align="center"><a href="socialmedia.html">Social Media</a>&nbsp;</td>
+<td align="center"><a href="registration.html">Registration</a></td>
+</nav>
+</tr> <br>
+</table><br><br>
+<h1 style="color:yellow;" align="center"><strong>Registration Form</strong></h1><hr>
+<form action>
+                <fieldset>
+                        <legend>Registaration Form</legend>
+						 First name: <input type="text" name="firstName" required> <br>
+                         Last name: <input type="text" name="lastName" required> <br>
+                         <label for="email" required>Your E-mail:</label>
+                         <input type="email" id="email" name="email"><br>
+						 <label for="birthday">Your birthday:</label>
+                         <input type="date" id="birthday" name="birthday"><br>
+						 City:
+<select>
+  <option value="ISTANBUL">ISTANBUL</option>
+  <option value="IZMIR">IZMIR</option>
+  <option value="ANKARA">ANKARA</option>
+  <option value="ESKISEHIR">ESKISEHIR</option>
+  <option value="ERZURUM">ERZURUM</option>
+  <option value="ADANA">ADANA</option>
+  <option value="BURSA">BURSA</option>
+  
+</select>
+<br>
+Gender: <input type="radio" name="gender" value="male"> Male 
+
+  <input type="radio" name="gender" value="female"> Female
+  <br>
+ Interest: <input type="checkbox" name="sport1" value="Football">Football
+
+<input type="checkbox" name="sport1" value="Basketball">Basketball
+<input type="checkbox" name="sport2" value="Volleyballoll">Volleyball
+<input type="checkbox" name="sport3" value="Handball">Handball
+<input type="checkbox" name="sport4" value="Tennis">Tennis
+<br>
+ About You<br><textarea name="message" rows="3" cols="30">
+
+</textarea><br>
+User password:<input type="password" name="psw" required><br>
+<label for=photo> Photo: </label><input type="file" name="photo" >
+<br>
+
+                   </fieldset> <br>
+
+ <input type="submit" value="Send"onclick="return alert('Thanks for registration!')">
+ </form>
+
+<body>
+
+</html>
